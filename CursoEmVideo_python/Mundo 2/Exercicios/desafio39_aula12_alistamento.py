@@ -16,9 +16,9 @@ from datetime import date
 
 birthday = int(input('Qual o ano do seu nascimento?  '))
 
-this_year = date.today()
+this_year = date.today().year
 
-age = this_year.year - birthday
+age = this_year - birthday
 
 if age < 18:
   

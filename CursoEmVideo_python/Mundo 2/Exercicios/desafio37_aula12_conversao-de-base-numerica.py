@@ -14,7 +14,10 @@ conver = 0
 
 print('Qual a base de conversão?')
 
-opcao = int(input('1 - Binario | 2 - Octal | 3 - Hexadecimal  ')) 
+opcao = int(input('''
+| 1 - Binario 
+| 2 - Octal 
+| 3 - Hexadecimal  ''')) 
 
 if opcao == 1:
     conver = bin(num)
