@@ -5,6 +5,7 @@
 #padrao ANSI para cores \033['style'       'texto'      'fundo' m]
 #                            0-none         30-padrao   -40
 #                            1-BOLD         31 -red     -41
+#                            3-Italic                            
 #                            4-underline    32 -green   -42
 #                            7-negative     33 -yellow  -43
 #                                           34 -blue    -44
