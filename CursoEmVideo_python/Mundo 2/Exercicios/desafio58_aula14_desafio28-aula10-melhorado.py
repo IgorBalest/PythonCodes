@@ -35,6 +35,6 @@ while jogador != sort:
     if jogador != sort:
         print('VOCÊ NÃO ACERTOU, TENTE OUTRA VEZ...')
         tenta += 1
-    else:
-        print('Parabéns, Você acertou. só custou {} tentativas'.format(tenta))
+
+print('Parabéns, Você acertou. só custou {} tentativas'.format(tenta))
 
