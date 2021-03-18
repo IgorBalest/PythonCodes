@@ -13,9 +13,12 @@ while True:
     
     print('-' * 30)
     cont = 1
+    
     while cont <= 10:    
         print(f'{n} x  {cont} = {n * cont}')
         cont += 1
+        
+        
     print('-*' * 15)
         
 print('TCHAU!')

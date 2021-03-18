@@ -8,14 +8,16 @@ conquistou no final do jogo.
 
 import random
 
+par_impar = ''
 
 vitoria = 0
 while True:
     pc  = random.randint(1, 2)
    
     
-   
+  
     par_impar =  str(input('Par ou impar?')).lower()
+    
     jogador = int(input('Digite um número: '))
     
     if par_impar == 'par' and (pc%2 == 1 and jogador % 2 == 0) or (pc%2 == 0 and jogador % 2 == 1): 
