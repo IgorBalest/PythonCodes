@@ -23,15 +23,27 @@ print(f'voce digitou:  {num}')
 for c in num:
     if c == 9:
         nove += 1
+        
 
 
+#------------------------------------------------------------
 while tres_pos == 0 and i < len(num):
     if num[i] == 3:
         tres_pos = i + 1
     i +=1 
 
+# resolução video
+print(' o valor 3 apareceu na posição {num.index(3)}')
+# -----------------------------------------------------------
+
+
 
 print(f'O número Nove apareceu {nove}')
+
+# resolução video
+print(' o valor 9 apareceu {num.count(9)} vezes')
+
+
 
 
 if tres_pos != 0:
@@ -39,6 +51,8 @@ if tres_pos != 0:
 else: 
     print('O número três não apareceu. ')
     
+
+
     
 print('Os números pares foram:')
 for c in num:

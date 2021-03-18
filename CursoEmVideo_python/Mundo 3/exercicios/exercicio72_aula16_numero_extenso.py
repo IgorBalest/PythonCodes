@@ -15,7 +15,18 @@ n = 1
 
 if n > 0 and n < 20:    
     n = int(input('Digite um número: '))
-    print(f'Você digitou o número {elem[n]}')
+    print(f'Você digitou o número {elem[n]}') 
+    # isto está errado, pois posso digitar algo fora do intervalo
 else:
     print('Número inválido')
+  
+    
+#resolução video--------------------------
+while True:
+    n = int(input('Digite um número: '))
+    if 0 <= n <= 20:
+        break
+    print('Número inválido')
+    
+print(f'Você digitou o número {elem[n]}')
     

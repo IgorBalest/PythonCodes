@@ -14,9 +14,10 @@ i = j = 0
 
 for i in range(0 , len(palavras)):          # percorre os elementos da tupla
     print(f'na palavra {palavras[i]} temos as vogais:')
+    
     for j in range(0, len(palavras[i])):    #percorre as letras do elemento
         letra = palavras[i][j] 
-        if letra == 'a' or letra == 'e' or letra == 'i' or letra =='o' or letra=='u':
+        if letra in 'aeiou':
             print(palavras[i][j], end=' - ')
     print('\n')
     
